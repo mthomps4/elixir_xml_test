@@ -23,7 +23,8 @@ defmodule XmlTest.MixProject do
     [
       {:xml_builder, "~> 2.1.1"},
       {:sweet_xml, "~> 0.6.6"},
-      {:soap, "~> 1.0.1"}
+      # {:soap, "~> 1.0.1"},
+      {:soap, git: "https://github.com/elixir-soap/soap", branch: "fix-empty-complex-types"}
     ]
   end
 end

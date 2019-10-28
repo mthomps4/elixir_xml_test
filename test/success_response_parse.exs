@@ -1,4 +1,4 @@
-defmodule XmlTest.BookingMockTest do
+defmodule XmlTest.SuccessResponseTest do
   use ExUnit.Case
   alias XmlTest.ReservationRequestMock
   import SweetXml
